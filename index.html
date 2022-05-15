@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicias da Marga</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!--------------Fonte Awesome-------------------------->
+  <script src="https://kit.fontawesome.com/664a7b0ef2.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+  <header>
+    <div class="" id="nav-container">
+      <nav class="navbar navbar-expand-lg " id="nav">
+        <a href="#" class="navbrand">
+          <img src="./img/Logo.png" alt="Delicias da marga" id="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarlink" aria-controls="navbarlink" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarlink">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#cardapio" class="nav-link">Produtos</a>
+              </li>
+              <li class="nav-item active">
+                <a href="#about" class="nav-link">Informações</a>
+              </li>
+            </ul>
+          </div>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div id="MeuCarrossel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#MeuCarrossel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/sonhos.jpg" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">              
+              <h2>Faça sua encomenda!</h2>
+              <a href="#contact-area" class="main-btn">Contato</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/Salgado.jpg" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">              
+              <h2>Faça sua encomenda!</h2>
+              <a href="#" class="main-btn">Contato</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/doces.jpg" class="d-block w-100" >
+            <div class="carousel-caption d-none d-md-block">              
+              <h2>Faça sua encomenda!</h2>
+              <a href="#" class="main-btn">Contato</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#MeuCarrossel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#MeuCarrossel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>      
+      <div id="cardapio">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h3 class="title">Nossos produtos</h3>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Docinhos Tradicionais</h3>
+                    <li>Brigadeiro</li>
+                    <li>Beijinho de Côco</li>
+                    <li>Beijinho de Morango</li>
+                    <li>Beijinho de Abacaxi</li>
+                    <li>Paçoquinha</li>
+                    <li>Leite ninho</li>
+                    <li>Dois amores</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Salgadinhos fritos</h3>
+                    <li>Coxinha</li>
+                    <li>Risoles de Carne</li>
+                    <li>Bolinha de queijo, queijo e presunto, Calabresa</li>
+                    <li>enrroladinho de vina</li>
+                    <li>Kibe</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Salgadinhos assados</h3>
+                    <li>Doguinho</li>
+                    <li>Esfirra: Carne, Frango, Quijo, Calabresa, Tomate e milho</li>
+                    <li>Empadas: Frango, Queijo, Palmito</li>                  
+                  </ul>
+                </div> 
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Bolos artesanais recheios</h3>
+                    <li>Morango</li>
+                    <li>Creme</li>
+                    <li>Abacaxi</li>
+                    <li>Doce de Leite com Amendoim</li>
+                    <li>Prestígio</li>
+                    <li>Sonho de Valsa</li>
+                    <li>Ouro Branco</li>
+                    <li>Dois Amores</li>
+                    <li>Leite Ninho</li>              
+                  </ul>
+                </div> 
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Bolos Simples</h3>
+                    <li>Toalha Felpuda</li>
+                    <li>Nega Maluca</li>
+                    <li>Cenoura</li>
+                    <li>Laranja</li>
+                    <li>Fubá</li>
+                    <li>Indiano</li>
+                    <li>Banana</li>
+                    <li>Abacaxi</li>              
+                  </ul>
+                </div> 
+                <div class="col-md-3">
+                  <ul> <h3 class="title-about">Bolos simples</h3>
+                    <li>Formigueiro</li>
+                    <li>Crocante de coco e nozes</li>
+                    <li>Bombocado de fubá</li>
+                    <li>Bolo de Coca-Cola</li>
+                    <li>Bolo invertido</li>
+                    <li>Cuque Luiza</li>
+                    <li>Cuque de Goiaba</li>
+                    <li>Cuque de Banana</li>
+                    <li>Cuque de Doce de Leite</li>
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Bolos refinados</h3>
+                    <li>Floresta Negra</li>
+                    <li>Castanha do Pará</li>
+                    <li>Raffaello</li>
+                    <li>Strogonoff de Nozes</li>
+                    <li>Torta Xuxa</li>
+                    <li>Torta Italiana</li>
+                    <li>Marta Rocha</li>              
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Salgado grande 100g (unidade)</h3>
+                    <li>Coxinha</li>
+                    <li>Risoles de carne</li>
+                    <li>Bolinha de: Queijo, Queijo e presunto, Calabresa</li>
+                    <li>Enrroladinho de vina</li>
+                    <li>Kibe</li>             
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Tortas doces</h3>
+                    <li>Torta de Banana</li>
+                    <li>Torta de Maçã</li>
+                    <li>Torta de Limão</li>
+                    <li>Torta Mantese</li>
+                    <li>Torta Suprema</li>
+                    <li>Torta Alemã</li>
+                    <li>Pudim de Leite Condensado</li>                                
+                  </ul>
+                </div>
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Tortas salgadas</h3>
+                    <li>Torta de Frango</li>
+                    <li>Torta de Frango com catupiry</li>
+                    <li>Torta de Requeijão</li>
+                    <li>Torta Requeijão com tomate, milho verde, cenoura e palmito</li>
+                    <li>Empadão</li>                               
+                  </ul>
+                </div> 
+                <div class="col-md-3">
+                  <ul><h3 class="title-about">Pães (unidade)</h3>
+                    <li>Pão caseiro </li>
+                    <li>Pão de queijo </li>                                                    
+                  </ul>
+                </div>                           
+              </div>
+            </div>
+          </div>
+      <div id="fotos">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="title">Algumas de nossas delicias</h3>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/boloa.jpg">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/Docinhos (1).jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/Docinhos (2).jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/salgados.jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/paoforma.jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/paoqueijo.jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/torta.jpg" >
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="img/card/torta2.jpg" >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+    </div> 
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="title">Informações </h3>
+          </div>
+          <div class="col-md-6">
+            <img class="img-fluid" alt="Imagem sobre" src="./img/bagunca.jpg">  
+          </div>
+          <div class="col-md-6">
+            <h3 class="title-about">Descrição</h3>
+            <p>Realizamos entregas, o valor varia conforme a distância.</p>
+            <p>Os pedidos devem ser feitos com uma semana de antecedência.</p>
+            <p>Encomendas feitas por Whatsapp.</p>
+            <p>Pagamento dinheiro ou PIX.</p>
+            <ul id="about-list">
+              <li><i class="fas fa-check"></i>Bolos</li>
+              <li><i class="fas fa-check"></i>Docinhos</li>
+              <li><i class="fas fa-check"></i>Mini sonhos</li>
+              <li><i class="fas fa-check"></i>Pães</li>
+              <li><i class="fas fa-check"></i>Tortas</li> 
+              <li><i class="fas fa-check"></i>Salgados</li>          
+            </ul>
+          </div>
+        </div>      
+      </div>
+    </div>   
+  </main>  
+
+
+</body>
+<script src="./js/script.js"></script>
+<footer>
+  <div id="contact-area">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <h3 class="title">Faça sua encomenda</h3>
+          </div>
+          <div class="col-md-4 contact-box">
+              <i class="fas fa-phone"></i>
+              <p><span class="contact-title">Ligue para: </span>(41) 99588-5023 <a href="https://api.whatsapp.com/send?phone=5541995885023" target="_blank"> <i id="whats" class="fab fa-whatsapp"></i></a></p>
+              
+          </div>
+          <div class="col-md-4 contact-box">
+              <i class="fas fa-envelope"></i>
+              <p><span class="contact-title">E-mail: </span>margaretedobbins@gmail.com</p>
+          </div>
+          <div class="col-md-4 contact-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <p><span class="contact-title">Endereço: </span>Rua Benedito Prudencio da Silva Filho<p>Campo Largo</p>
+          </div>
+      </div>
+  </div>
+  </div>
+  <div id="copy-area">
+    <div class="container">
+        <p>  Desenvolvido por André Luis Santos <br/> <a href="https://www.facebook.com/andre.tecnico.eletronica" target=_blank><i id="face" class="fab fa-facebook"></i></a>   | <a href="https://wa.me/message/XLYUZIVPYHQLF1" target="_blank"> <i id="whats" class="fab fa-whatsapp"></i></a>  </p> 
+    </div>
+  </div>
+</footer>
+</html>
